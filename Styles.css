@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "Widock TRIAL";
+  src: url("Fonts/Widock\ TRIAL\ Bold.otf");
+}
+
+body {
+  margin: 0;
+  background-image: url(Photos/Ma1.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.Header {
+  background-color: #ff3b3b;
+  min-height: 13vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a {
+  font-size: 3vh;
+  color: white;
+  text-decoration: none;
+  font-family: "Widock TRIAL";
+  transition: all 0.5s ease 0s;
+  padding: 10px;
+  background-color: #ff3b3b;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #e53535;
+  font-size: 4vh;
+  scale: 1.1;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.BG {
+  display: flex;
+  flex-direction: column;
+  min-height: 87vh;
+  margin-top: 4vh;
+  align-items: flex-end;
+  font-size: 3vh;
+  font-family: "Widock TRIAL";
+  text-align: center;
+  gap: 7vh;
+  margin-right: 7vh;
+}
+
+#Devices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #3bffff;
+  font-family: "Widock TRIAL";
+  font-size: 5vh;
+  padding: 2vh;
+}
+
+#Market {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #ff3b3b;
+  font-family: "Widock TRIAL";
+  font-size: 5vh;
+  padding: 2vh;
+}
+
+img {
+  max-height: 30vh;
+  max-width: 40vh;
+  transition: all 0.5s ease 0s;
+}
+
+img:hover {
+  scale: 1.1;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.p1 {
+  color: #00a9a9;
+  margin-right: 7vh;
+}
+.p2 {
+  color: #ff3b3b;
+  margin-right: 14vh;
+  margin-bottom: 5vh;
+}
+
+.t1,
+.t3 {
+  background-color: #3bffff;
+  align-items: center;
+  border: 3vh solid #3bffff;
+}
+
+.t2 {
+  background-color: #3bffff;
+  align-items: center;
+  border: 3vh solid #3bffff;
+}
+
+.t4,
+.t6 {
+  background-color: #ff3b3b;
+  align-items: center;
+  border: 3vh solid #ff3b3b;
+}
+
+.t5 {
+  background-color: #ff3b3b;
+  align-items: center;
+  border: 3vh solid #ff3b3b;
+}
+
+.t1 p,
+.t2 p,
+.t3 p,
+.t4 p,
+.t5 p,
+.t6 p {
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 3vh;
+  text-indent: 3vh;
+}
+
+.t1,
+.t2,
+.t3,
+.t4,
+.t5,
+.t6 {
+  display: flex;
+  gap: 2vh;
+}
+
+.Footer {
+  min-height: 10vh;
+  background-color: black;
+  font-family: "Widock TRIAL";
+  color: #060606;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1100px) {
+  .BG {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+  .p1 {
+    color: #00a9a9;
+    margin-right: 0;
+  }
+  .p2 {
+    color: #ff3b3b;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .t1,
+  .t2,
+  .t3,
+  .t4,
+  .t5,
+  .t6 {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+  }
+
+  body {
+    background-position: left top;
+  }
+}
